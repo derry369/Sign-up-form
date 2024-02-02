@@ -1,0 +1,64 @@
+@font-face {
+    font-family: my-norse;
+    src: url(/Norse-Bold.otf);
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.ovr-cont {
+    width: 60vw;
+    background-color: white;
+    display: flex;
+
+}
+
+.sidebar {
+   position: relative;
+   height: 100%;
+   width: 40%; 
+}
+
+.backgr {
+    height: 100%;
+    width: 100%;
+}
+
+.logoBar {
+    position: absolute;
+    top: 150px;
+    height: 90px;
+    width: 100%;
+    /*border:1px solid red;*/
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 50%;
+    display: flex;
+}
+
+.odin {
+    height: 100%;
+    width: 40%;
+}
+
+.text-cont {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+    font-family: my-norse, sans-serif;
+    font-size: 4em;
+}
