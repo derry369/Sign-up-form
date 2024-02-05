@@ -127,8 +127,22 @@ input:invalid {
     font-size: 0.65em;
 }
 
-a {
+p > a {
     text-decoration: none;
     color: #596D48;
     margin-left: 3px;
+}
+
+.credit {
+    width: 100%;
+    position: absolute;
+    top: 600px;
+    font-size: 0.6em;
+    color: white;
+    text-align: center;
+}
+
+div > a {
+    color: white;
+    font-size: 100%;
 }
