@@ -33,7 +33,6 @@ body {
     top: 150px;
     height: 90px;
     width: 100%;
-    /*border:1px solid red;*/
     background-color: black;
     opacity: 0.7;
     display: flex;
@@ -61,4 +60,75 @@ body {
     color: white;
     font-family: my-norse, sans-serif;
     font-size: 4em;
+}
+
+
+.form-cont {
+    width: 60%;
+    padding: 50px;
+    padding-top: 80px;
+}
+
+.desc-txt > p {
+    font-family: sans-serif, system-ui;
+}
+
+.form-fld {
+    display: flex;
+    gap: 60px;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+label {
+    display: table;
+    font-family: sans-serif;
+    font-size: 60%;
+    margin-top: 15px;
+}
+
+input {
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus {
+    outline: none;
+    border: 0.2px solid blue;
+    box-shadow: 0.3px blue;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+.sign-btn {
+    height: 35px;
+    width: 150px;
+    font-size: 0.8em;
+    margin-top: 30px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    border: 1px solid #596D48;
+    background-color: #596D48;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.ques {
+    font-family: sans-serif;
+    font-size: 0.65em;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    margin-left: 3px;
 }
